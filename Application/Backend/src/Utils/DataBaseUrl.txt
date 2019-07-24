@@ -1,0 +1,1 @@
+postgres://osbqdwpe:cNBUCsN0z-3C624VMZ6QZDqEGTj-2e_U@manny.db.elephantsql.com:5432/osbqdwpe
