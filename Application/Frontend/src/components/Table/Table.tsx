@@ -131,7 +131,7 @@ export function CustomTable(props: Props) {
     function handleClick(event: React.MouseEvent<unknown>, row: DataBaseA) {
         if (selected === row.id) {
             setSelected(-1);
-            props.selectToEdit({});
+            props.selectToEdit(null);
         } else {
             setSelected(row.id);
             props.selectToEdit(row);
